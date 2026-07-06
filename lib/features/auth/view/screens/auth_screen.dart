@@ -20,21 +20,21 @@ class AuthScreen extends StatelessWidget {
         children: [
           AppSizes.huge.verticalSpace,
           AppLogo(),
-          AppSizes.l.verticalSpace,
+          AppSizes.huge.verticalSpace,
           Text(
             'مصروفي',
             style: context.textTheme.displayLarge!.copyWith(
               color: isDark ? AppColors.white : AppColors.primary,
             ),
           ),
-          AppSizes.l.verticalSpace,
+          AppSizes.xl.verticalSpace,
           Text(
             'مرحبا بك مجددا في مصروفي',
             style: context.textTheme.titleSmall!.copyWith(
               color: isDark ? AppColors.white : AppColors.primary,
             ),
           ),
-          AppSizes.l.verticalSpace,
+          AppSizes.xl.verticalSpace,
           Text(
             "أدر مصروفاتك وديونك وأهدافك المالية في مكان واحد",
             style: context.textTheme.titleSmall!.copyWith(
@@ -44,7 +44,7 @@ class AuthScreen extends StatelessWidget {
           Spacer(),
 
           AuthBtn().paddingHorizontal(AppSizes.s),
-          Spacer(),
+          AppSizes.xxxl.verticalSpace,
         ],
       ),
     );
