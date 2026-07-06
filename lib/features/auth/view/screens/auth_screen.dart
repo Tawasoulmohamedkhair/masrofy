@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:masrofy/core/extensions/build_context.dart';
+import 'package:masrofy/core/extensions/widget_extension.dart';
 import 'package:masrofy/core/themes/app_colors.dart';
+import 'package:masrofy/core/themes/app_sizes.dart';
 import 'package:masrofy/core/widgets/custom_app_scaffold.dart';
+import 'package:masrofy/features/auth/view/widgets/app_logo.dart';
+import 'package:masrofy/features/auth/view/widgets/auth_button.dart';
 
 class AuthScreen extends StatelessWidget {
   const AuthScreen({super.key});
@@ -14,24 +18,33 @@ class AuthScreen extends StatelessWidget {
       isDark: isDark,
       child: Column(
         children: [
-          const Spacer(flex: 2,),
-          Container(
-            width: 100.w,
-            height: 100.h,
-            decoration: BoxDecoration(
-              gradient: AppColors.primaryGradient,
-              shape: BoxShape.circle,
-              boxShadow: [
-                BoxShadow(
-                  color: AppColors.primary.withValues(alpha: 0.3),
-                  blurRadius: 20,
-                  offset: const Offset(0, 8),
-                ),
-              ],
-
+          AppSizes.huge.verticalSpace,
+          AppLogo(),
+          AppSizes.l.verticalSpace,
+          Text(
+            'مصروفي',
+            style: context.textTheme.displayLarge!.copyWith(
+              color: isDark ? AppColors.white : AppColors.primary,
             ),
-
           ),
+          AppSizes.l.verticalSpace,
+          Text(
+            'مرحبا بك مجددا في مصروفي',
+            style: context.textTheme.titleSmall!.copyWith(
+              color: isDark ? AppColors.white : AppColors.primary,
+            ),
+          ),
+          AppSizes.l.verticalSpace,
+          Text(
+            "أدر مصروفاتك وديونك وأهدافك المالية في مكان واحد",
+            style: context.textTheme.titleSmall!.copyWith(
+              color: isDark ? AppColors.white : AppColors.primary,
+            ),
+          ),
+          Spacer(),
+
+          AuthBtn().paddingHorizontal(AppSizes.s),
+          Spacer(),
         ],
       ),
     );
