@@ -68,6 +68,7 @@ class AppColors {
   static const Color orange = Color(0xFFF97316);
   static const Color blue = Color(0xFF3B82F6);
   static const Color cyan = Color(0xFF06B6D4);
+  static const Color white = Color.fromARGB(255, 252, 252, 252);
 
   // ===========================
   // Greys
@@ -89,28 +90,19 @@ class AppColors {
   // ===========================
 
   static const LinearGradient primaryGradient = LinearGradient(
-    colors: [
-      Color(0xFF15803D),
-      Color(0xFF22C55E),
-    ],
+    colors: [Color(0xFF15803D), Color(0xFF22C55E)],
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
   );
 
   static const LinearGradient darkCardGradient = LinearGradient(
-    colors: [
-      Color(0xFF182231),
-      Color(0xFF111827),
-    ],
+    colors: [Color(0xFF182231), Color(0xFF111827)],
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
   );
 
   static const LinearGradient walletGradient = LinearGradient(
-    colors: [
-      Color(0xFF0F766E),
-      Color(0xFF16A34A),
-    ],
+    colors: [Color(0xFF0F766E), Color(0xFF16A34A)],
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
   );
