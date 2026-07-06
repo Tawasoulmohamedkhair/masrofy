@@ -7,7 +7,7 @@ class AppColors {
   // Brand Colors
   // ===========================
 
-  static const Color primary = Color(0xFF16A34A); // الزرار الرئيسي
+  static const Color primary = Color(0xFF16A34A);
   static const Color primaryDark = Color(0xFF15803D);
   static const Color primaryLight = Color(0xFF4ADE80);
 
@@ -89,28 +89,19 @@ class AppColors {
   // ===========================
 
   static const LinearGradient primaryGradient = LinearGradient(
-    colors: [
-      Color(0xFF15803D),
-      Color(0xFF22C55E),
-    ],
+    colors: [Color(0xFF15803D), Color(0xFF22C55E)],
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
   );
 
   static const LinearGradient darkCardGradient = LinearGradient(
-    colors: [
-      Color(0xFF182231),
-      Color(0xFF111827),
-    ],
+    colors: [Color(0xFF182231), Color(0xFF111827)],
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
   );
 
   static const LinearGradient walletGradient = LinearGradient(
-    colors: [
-      Color(0xFF0F766E),
-      Color(0xFF16A34A),
-    ],
+    colors: [Color(0xFF0F766E), Color(0xFF16A34A)],
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
   );
