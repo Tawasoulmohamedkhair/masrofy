@@ -18,10 +18,10 @@ class MyApp extends ConsumerWidget {
       designSize: const Size(360, 690),
       builder: (context, child) {
         return MaterialApp.router(
-          title: 'Masrofy',
+          title: 'مصروفي',
           debugShowCheckedModeBanner: false,
 
-          locale: context.locale,
+          locale: Locale('ar'),
           supportedLocales: context.supportedLocales,
           localizationsDelegates: context.localizationDelegates,
 
