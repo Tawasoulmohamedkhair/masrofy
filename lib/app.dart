@@ -6,7 +6,6 @@ import 'package:masrofy/core/routes/routes.dart';
 import 'package:masrofy/core/themes/app_theme.dart';
 import 'package:masrofy/core/themes/theme_mode_provider.dart';
 
-
 class MyApp extends ConsumerWidget {
   const MyApp({super.key});
 
@@ -25,19 +24,12 @@ class MyApp extends ConsumerWidget {
           supportedLocales: context.supportedLocales,
           localizationsDelegates: context.localizationDelegates,
 
-          theme: AppTheme.light,
+          theme: AppTheme.dark,
           darkTheme: AppTheme.dark,
           themeMode: themeMode,
-           routerConfig: appRouter,
+          routerConfig: appRouter,
         );
       },
     );
   }
 }
-
-
-
- 
-   
-
-

@@ -9,11 +9,13 @@ class HomeAppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
-      mainAxisAlignment: MainAxisAlignment.center,
+      crossAxisAlignment: CrossAxisAlignment.center,
       children: [
         CircleAvatar(radius: AppSizes.rL, child: Icon(Icons.person)),
+        AppSizes.s.horizontalSpace,
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text('مرحبا توسل'),
             AppSizes.s.verticalSpace,
