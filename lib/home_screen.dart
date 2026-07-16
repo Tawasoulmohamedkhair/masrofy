@@ -56,7 +56,7 @@ class HomeScreen extends ConsumerWidget {
           CustomButton(
             text: "Go to Settings",
             onPressed: () {
-              context.go(AppRoutes.settings);
+              context.go(AppRoutes.auth);
             },
             variant: ButtonVariant.primary,
           ),
