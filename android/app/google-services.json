@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1063652285590",
+    "project_id": "masrofy-2e63e",
+    "storage_bucket": "masrofy-2e63e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063652285590:android:70b04857e9323d599776b7",
+        "android_client_info": {
+          "package_name": "com.example.masrofy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063652285590-vt9aoa1gcisfj0h9q7cgodabu6qphtah.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.masrofy",
+            "certificate_hash": "f62afe2bd3b50347e4c07a517d011bb90f5d49e0"
+          }
+        },
+        {
+          "client_id": "1063652285590-sf78n9ml7df6019llf11026hctkodu8p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOgX-0tVw_6E-K3LbPr0ix7cODdRdI3QM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1063652285590-sf78n9ml7df6019llf11026hctkodu8p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1063652285590-t8e7ke97ftm6u67gut28d0svh0jp4qiv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.masrofy"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
